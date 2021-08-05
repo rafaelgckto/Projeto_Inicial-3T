@@ -27,7 +27,7 @@ namespace senai_projetoInicial_webApi.Contexts
             if (!optionsBuilder.IsConfigured)
             {
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source=RAFAEL; initial catalog=ProjetoInicial; user id=sa; pwd=1199700265Ra");
+                optionsBuilder.UseSqlServer("Data Source=USER; initial catalog=ProjetoInicial; user id=sa; pwd=7895123");
             }
         }
 
