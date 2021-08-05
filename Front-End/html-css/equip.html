@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos</title>
+</head>
+<body>
+    <div>
+        <header class="cabecalho">
+          <div class="container">
+            <img src="" alt="Logo do Senai" />
+
+          </div>
+        </header>
+  
+        <main class="conteudoPrincipal">
+          <section class="conteudoPrincipal-cadastro">
+            <h2 class="conteudoPrincipal-cadastro-titulo">Equipamentos</h2>
+            <div class="container" id="conteudoPrincipal-lista">
+              <table id="tabela-lista">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Marca</th>
+                    <th>Tipo</th>
+                    <th>Série</th>
+                    <th>Descrição</th>
+                    <th>Patrimônio</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+  
+                <tbody id="tabela-lista-corpo">
+  
+                </tbody>
+              </table>
+            </div>
+  
+            <section class="container" id="conteudoPrincipal-cadastro">
+              <h2 class="conteudoPrincipal-cadastro-titulo">
+                Cadastrar Equipamentos
+              </h2>
+              <form>
+                <div class="container">
+                  <input
+                    type="text"
+                    id="nome-marca"
+                    placeholder="Marca"
+                  />
+                  <input 
+                    type="text"
+                    id="tipo-equip"
+                    placeholder="Tipo de Equipamento"
+                  />
+                  <input 
+                  type="text"
+                  id="num-serie"
+                  placeholder="Número de Série"
+                />
+                  <input 
+                    type="text"
+                    id="descricao"
+                    placeholder="Descrição"
+                  />
+                  <input 
+                    type="text"
+                    id="numeroDePatrimonio"
+                    placeholder="Número de Patrimônio"
+                  />
+                  <select name="Status" id="idStatus">
+                    <option value="true">Ativo</option>
+                    <option value="false">Passivo</option>
+                  </select>
+                  <button
+                    class="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro"
+                  >
+                    Cadastrar
+                  </button>
+                </div>
+              </form>
+            </section>
+          </section>
+        </main>
+  
+        <footer class="rodapePrincipal">
+          <section class="rodapePrincipal-patrocinadores">
+            <div class="container">
+              <p>Escola SENAI de Informática - 2021</p>
+            </div>
+          </section>
+        </footer>
+      </div>
+</body>
+</html>
