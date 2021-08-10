@@ -7,7 +7,7 @@ import { usuarioAutenticado, parseJwt } from './services/auth'
 import './index.css';
 
 import App from './pages/home/App';
-import Salas from './pages/salas/salas';
+import Salas from './pages/salas/Sala';
 import NotFound from './pages/notFound/notFound';
 
 import reportWebVitals from './reportWebVitals';

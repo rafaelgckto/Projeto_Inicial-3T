@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+.headerr-cab {
+	background-color: #7522e5;
+	height: 9.5vh;
+}
+
+.main-container {
+	width: 45vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.container {
+	margin-bottom: 1.5em;
+}
+
+.container p {
+	position: relative;
+	left: 1.2em;
+	width: 35%;
+}
+
+.room_registration-container {
+	border: 2px solid #838383;
+	border-radius: 10px;
+	width: 30vw;
+	height: 30vh;
+}
+
+.room-registration-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 28vh;
+	padding: 0 2em;
+}
+
+.item {
+	margin: 0.3em 0;
+}
+
+.item-input {
+	border: 1px solid #838383;
+	border-radius: 8px;
+	width: 10vw;
+	height: 4vh;
+	padding: 0 0.5em;
+	margin-left: 0.5em;
+}
+
+button.btn {
+	background-color: #4b1ffa;
+	border: 1px solid #838383;
+	border-radius: 10px; /**/
+	width: 9vw;
+	height: 6vh;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+}
+
+/* ================== */
+
+.room-list-container {
+	border: 2px solid #838383;
+	border-radius: 10px;
+	width: 30vw;
+	height: 40vh;
+	overflow-y: auto;
+}
+
+.room-list-container::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+.room-list-container::-webkit-scrollbar-track {
+	background-color: #fdfdfd;
+	border-radius: 10px;
+}
+
+.room-list-container::-webkit-scrollbar-thumb {
+	background-color: #838383;
+	border-radius: 10px;
+	border: 1px solid #252934;
+}
+
+.room-list-table {
+	width: 100%;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+}
+
+table.room-list-table > thead > tr > th {
+	border: solid #838383;
+	border-top-width: 0;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+}
+
+table.room-list-table > tbody > tr > td {
+	border: 2px solid #838383;
+}
+
+th,
+td {
+	text-align: center;
+}
+
+td {
+	padding: 0.3em 0;
+}
+
+button.btn02 {
+	width: 4vw;
+	height: 5vh;
+	margin-top: 0;
+	border-radius: 8px;
+}
+
+/* ================== */
+
+.room_update-container {
+	border: 2px solid #838383;
+	border-radius: 10px;
+	width: 30vw;
+	height: 35vh;
+}
+
+.room-update-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 35vh;
+	padding: 0 2em;
+}
+
+.id-input {
+	width: 3vw;
+	text-align: center;
+}
+
+@media screen and (min-width: 1600px) {
+	.headerr-cab {
+		height: 7vh;
+	}
+
+	.container p {
+		font-size: 1.1em;
+	}
+
+	.room_registration-container {
+		height: 24vh;
+	}
+
+	.room-registration-form {
+		height: 24vh;
+	}
+
+	.item-input {
+		border: 2px solid #838383;
+		width: 8vw;
+		height: 3vh;
+	}
+
+	button.btn {
+		border: 2px solid #838383;
+		width: 7vw;
+		height: 4vh;
+		margin-top: 20px;
+	}
+
+	button.btn02 {
+		width: 4vw;
+		height: 4vh;
+		margin-top: 0;
+		border-radius: 5px;
+	}
+
+	.room_update-container {
+		height: 25vh;
+	}
+
+	.room-update-form {
+		height: 25vh;
+	}
+
+	.id-input {
+		width: 3vw;
+	}
+
+	.btn03 {
+		margin-top: 1.2em;
+		margin-right: 5em;
+	}
+}
